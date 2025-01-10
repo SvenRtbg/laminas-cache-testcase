@@ -53,7 +53,7 @@ class ObjectWithFixedDynamicPropertyTest extends TestCase
             ->setTtl(3600)
             ->setNamespace(md5(__FILE__));
 
-        $originalObject = new ObjectWithChangingProperty();
+        $originalObject = new ObjectWithFixedDynamicProperty();
 
         $this->objectCache = new ObjectCache(
             $storage,

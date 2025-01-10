@@ -14,7 +14,7 @@ class ObjectWithChangingProperty
     {
         $this->time = microtime(true);
         usleep(20);
-        echo "Cache Miss";
+        echo "Cache Miss\n";
         return random_int(1, 1000);
     }
 }

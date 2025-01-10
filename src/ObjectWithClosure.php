@@ -16,7 +16,7 @@ class ObjectWithClosure
 
     public function cachedMethod(): int
     {
-        return random_int(1, 1000);
+        return 9999;
     }
 }
 
